@@ -1,0 +1,11 @@
+{
+	"apps": {
+		"org.onosproject.dhcprelay": {
+			"default": [ {
+				"dhcpServerConnectPoint": "of:0000000000000002/1",
+				"serverIps": ["10.0.2.3"]
+			} ]
+		}
+	}
+}
+

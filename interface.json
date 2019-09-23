@@ -1,0 +1,18 @@
+{
+	"ports" : {
+		"of:0000000000000002/1" : {
+			"interfaces" : [ {
+				"name" : "dhcp-server-intf",
+				"ips" : ["10.0.2.254/24"],
+				"vlan-untagged" : 0
+			} ]
+		},
+		"of:0000000000000001/1" : {
+			"interfaces" : [ {
+				"name" : "host-intf",
+				"ips" : ["10.0.1.254/24"],
+				"vlan-untagged" : 0
+			} ]
+		}
+	}
+}
